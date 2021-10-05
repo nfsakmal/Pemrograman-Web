@@ -1,0 +1,37 @@
+body{
+    height: 100vh;
+    background: linear-gradient(135deg,#000000,#FF5900);    
+}
+.isi_table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px black;
+  }
+  .isi_table thead tr {
+    background-color: #ff0027;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .isi_table th,
+  .isi_table td {
+    padding: 12px 15px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .isi_table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+  }
+  
+  .isi_table tbody tr:last-of-type {
+    border-bottom: 2px solid #ff0027;
+  }
+  
+  
+  
